@@ -1,0 +1,17 @@
+a = int(input("enter one numer : "))
+b = int(input("enter second numer : "))
+print( f"sum of a+b is {a+b}")
+
+c = str(input("enter you name : "))
+print(f"your name is {c}")
+
+d= [1,6,8,11,17] 
+for i in range(0,len(d)):
+
+    print(d[i])
+
+
+arr = [i for i in input().split()]
+for i in arr:
+    print(i)
+
