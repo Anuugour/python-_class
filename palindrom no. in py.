@@ -1,0 +1,11 @@
+k = int(input("Enter a number : "))
+rev = 0
+var = k
+while(k!=0):
+    rev = (rev *10)+(k%10)
+    k = k//10
+if(rev==var):
+    print("it is a palindrom number : ")
+else:
+    print("it is not a palindrom number : ")
+    print(rev)
