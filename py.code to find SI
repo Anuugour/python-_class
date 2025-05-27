@@ -1,0 +1,7 @@
+amount = int(input("Enter a amount: "))
+r = int(input("Enter a rate: "))
+t = int(input("Enter a time: "))
+
+SI= (amount*r*t)//100
+print("simple intreast is: ",SI)
+print(f"total amount is: {SI+amount}")
