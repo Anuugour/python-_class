@@ -1,0 +1,3 @@
+num = int(input("enter a number  "))
+print("squar of this number: ", num*num)
+print(f"cube of this number: {num*num*num}")
