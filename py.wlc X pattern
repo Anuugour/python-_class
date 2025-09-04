@@ -1,0 +1,12 @@
+a = "WELCOME"
+n=7
+for i in range(7):
+    for j in range(7):
+        if(i==j):
+            print(a[j],end = " ")
+        elif(i+j==n-1):
+            print(a[j],end = " ")
+            
+        else:
+            print(" ",end = " ")
+    print()        
